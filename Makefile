@@ -1,5 +1,5 @@
 ifndef PROJECT_ID
-	PROJECT_ID := kolibri-nectar
+	PROJECT_ID := garpur-org
 endif
 
 ifndef KUBE_GCE_ZONE
@@ -7,11 +7,11 @@ ifndef KUBE_GCE_ZONE
 endif
 
 ifndef NUM_MINIONS
-	NUM_MINIONS := 4
+	NUM_MINIONS := 2
 endif
 
 ifndef MINION_SIZE
-	MINION_SIZE := t2.medium
+	MINION_SIZE := t2.micro
 endif
 
 ifndef MASTER_SIZE
@@ -19,7 +19,7 @@ ifndef MASTER_SIZE
 endif
 
 ifndef MINION_DISK_SIZE
-	MINION_DISK_SIZE := 200GB
+	MINION_DISK_SIZE := 20GB
 endif
 
 ifndef KUBERNETES_PROVIDER
@@ -31,7 +31,7 @@ ifndef KUBE_LOGGING_DESTINATION
 endif
 
 ifndef PROJECT_NAME
-	PROJECT_NAME := nectar
+	PROJECT_NAME := garpur-org
 endif
 
 ifndef DNS_DOMAIN
@@ -82,7 +82,6 @@ cluster: provision
 	MINION_DISK_SIZE=${MINION_DISK_SIZE} \
 	DNS_DOMAIN=${DNS_DOMAIN} \
 	MASTER_SIZE=${MASTER_SIZE} \
-	DNS_DOMAIN=nectar.local \
 	kubernetes/cluster/kube-up.sh
 	# gcloud container clusters create ${PROJECT_NAME} --no-enable-cloud-logging --no-enable-cloud-monitoring --password ${CLUSTER_PASSWORD}
 
@@ -93,6 +92,6 @@ destroy:
 	KUBE_LOGGING_DESTINATION=${KUBE_LOGGING_DESTINATION} \
 	PROJECT_ID=${PROJECT_ID} \
 	MINION_DISK_SIZE=${MINION_DISK_SIZE} \
-	INSTANCE_PREFIX=nectar \
+	INSTANCE_PREFIX=${PROJECT_NAME} \
 	DNS_DOMAIN=${DNS_DOMAIN} \
 	kubernetes/cluster/kube-down.sh
