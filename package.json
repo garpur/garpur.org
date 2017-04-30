@@ -1,0 +1,8 @@
+{
+  "name": "garpur.org",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:garpur/garpur.org.git",
+  "author": "garpur <garpur@gmail.com>",
+  "license": "MIT"
+}

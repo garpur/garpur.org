@@ -1,6 +1,0 @@
-FROM gocd/gocd-server
-
-USER root
-
-RUN chown go:go /etc/go -R
-RUN chown go:go /var/lib/go-server
