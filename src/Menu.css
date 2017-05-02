@@ -14,3 +14,9 @@
   --background: var(--light);
   --foreground: var(--dark);
 }
+
+@media print {
+  .menu-bar {
+    display: none;
+  }
+}

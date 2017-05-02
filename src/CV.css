@@ -6,8 +6,7 @@
   padding: 16px;
   margin: 16px 0 32px 0;
   font-size: 20px;
-  line-height: 28px;
-  box-shadow: 0 4px 4px 0 var(--gray);
+  border-bottom: 1px solid var(--gray)
 }
 
 .curriculum-vitae > .header > .img {
@@ -32,13 +31,13 @@
 .curriculum-vitae > .career {
   padding: 0 32px 16px 32px;
   margin: 16px 0 32px 0;
-  box-shadow: 0 4px 4px 0 var(--gray);
+  border-bottom: 1px solid var(--gray)
 }
 
 .curriculum-vitae > .education {
   padding: 0 32px 16px 32px;
   margin: 16px 0 32px 0;
-  box-shadow: 0 4px 4px 0 var(--gray);
+  border-bottom: 1px solid var(--gray)
 }
 
 .curriculum-vitae > .education > p {
