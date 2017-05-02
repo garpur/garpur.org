@@ -14,7 +14,7 @@ class Home extends Component {
           <div className="img">
             <img
               alt="Garpur Dagsson"
-              src="https://s3-eu-west-1.amazonaws.com/garpur.org/images/garpur-small.png"
+              src="https://s3-eu-west-1.amazonaws.com/garpur.org/garpur-small.png"
             />
           </div>
           <p>Garpur Dagsson (160667-4359)</p>
