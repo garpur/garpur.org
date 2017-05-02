@@ -1,0 +1,152 @@
+{
+  "2011-2017" : {
+    "company": "Kolibri",
+    "projects": [
+      {
+      "title": "Sjóvá",
+      "description": "Tool to assist salesmen of corporate insurance",
+      "tech": "Web based using KnockoutJS/razor templates/scss, interfacing with WebMethods and SAP, using SqlServer to store data."
+      },
+      {
+      "title": "Vodafone",
+      "description": "Customer Portal (My Pages)",
+      "tech": "AngularJS/Sass/Gulp/WebMethods"
+      },
+      {
+      "title": "Bluelagoon",
+      "description": "Inner beauty - Ad campaign on the web http://innrifegurd.bluelagoon.is/",
+      "tech": "scss, javascript"
+      },
+      {
+      "title": "VÍS",
+      "description": "New version of their web [www.vis.is](https://www.vis.is/)",
+      "tech": "Umbraco CMS, razor templates, scss and javascript. Set up a deployment pipeline (dev/test/live) using Umbraco Courier and a build server"
+      },
+      {
+      "title": "Icelandair",
+      "description": "Assistance with reconfiguring infrastructure and setting up Icelandair Labs",
+      "tech": "Go for microservices, aws/docker/kubernetes/..."
+      },
+      {
+      "title": "Icelandair Labs website",
+      "description": "labs.icelandair.com](https://labs.icelandair.com)",
+      "tech": "scss, javascript, fetch data from wordpress on build"
+      },
+      {
+      "title": "Bluelagoon",
+      "description": "New Bookingflow (still under development)",
+      "tech":"Server in Go, running on Heroku, frontend in Reactjs using Firebase DB for data"
+      },
+      {
+      "title": "Gengi.is (previous version)",
+      "description": "Currency conversion on the web",
+      "tech": "scss, javascript, vuejs, node api server for the data, cache currency info in localstore to minimize data-transfer,..."
+      },
+      {
+      "title": "Agile ísland (2105 version)",
+      "description": "Conference website, https://2015.godigital.is/",
+      "tech": "scss, javascript, parsing .md files for content..."
+      }
+    ]
+  },
+  "2008-2011": {
+    "company": "Theriak",
+    "projects": [
+      {
+      "title": "Theriak Medication Manager",
+      "description": "An app for hospitals to manage medication (prescription/preparation/administration) for patients to minimize errors.",
+      "tech": "Delphi, MS SQL Server (SQL and TSQL)"
+      }
+    ]
+  },
+  "2006-2008": {
+    "company": "Landsbanki Íslands",
+    "projects": [
+      {
+        "title": "Online Banking",
+        "description": "Design, programming and maintenance of both Personal and Corporate Online Banking systems",
+        "tech": "C++, C#, .NET, SQL"
+      },
+      {
+        "title": "Core Payment Systems",
+        "description": "The central interface to Reiknistofa Bankanna, used by most systems within the Bank",
+        "tech": "C++, SQL, PLSQL"
+      }
+    ]
+  },
+  "2001-2006": {
+    "company": "Decode Genetics",
+    "projects": [
+      {
+        "title": "LIMS",
+        "description": "System to manage the workflow in the laboratory",
+        "tech": "Java, SQL"
+      },
+      {
+        "title": "GenomeMiner",
+        "description": "A tool for viewing and editing sequence assemblies",
+        "tech": "Java, Delphi, SQL"
+      }
+    ]
+  },
+  "2000-2001": {
+    "company": "I7",
+    "projects": [
+      {
+        "title":"MobileStop",
+        "description": "Online ordering and inventory system",
+        "tech": "Oracle, PL/SQL, html"
+      },
+      {
+        "title": "CMS",
+        "description": "A system to manage phone sales, phone records, billing, etc for a Telecom Operator",
+        "tech": "Java, SQL"
+      }
+    ]
+  },
+  "1997-2000": {
+    "company": "Íslandsmarkaður",
+    "projects": [
+      {
+        "title": "Boði",
+        "description": "Auctioning system for fish markets",
+        "tech": "C++, TCL, SQL/SLP Informix, SQL/PLSQL Oracle -- UNIX and Windows"
+      },
+      {
+        "title": "sysop",
+        "description": "Managed a network of UNIX servers (HP/UX, Linux) and Windows clients using Cisco hardware to run TCP/IP over ISDN and HP/UX to run TCP/IP over X.25",
+        "tech": "unix, windows, cisco, networking"
+      }
+    ]
+  },
+  "1995-1997": {
+    "company": "Tákn",
+    "projects": [
+      {
+        "title": "Boði",
+        "description": "Auctioning system for fish markets",
+        "tech": "C++, TCL, SQL/SLP Informix -- UNIX"
+      },
+      {
+        "title": "Various",
+        "description": "Smaller projects for various clients",
+        "tech": "Delphi, C++, SQL, ... -- Windows and UNIX)"
+      }
+    ]
+  },
+  "1992-1995": {
+    "company": "Plúsplús",
+    "projects": [
+      {
+        "title": "Boði",
+        "description": "Auctioning system for fish markets",
+        "tech": "C++, TCL, SQL/SLP Informix -- UNIX"
+      },
+      {
+        "title": "WM-Handball 1995",
+        "description": "The result/score part of the official web for the 1995 Men's World Championship Handball Tournament",
+        "tech": "HTML, SQL Oracle, Expect -- UNIX"
+      }
+    ]
+  }
+}

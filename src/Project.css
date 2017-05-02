@@ -1,0 +1,25 @@
+.project {
+  margin: 16px 0;
+  line-height: 1.5em;
+}
+
+.project > p {
+  padding: 0;
+  margin: 0;
+}
+
+.project > .title {
+  font-size: 16px;
+  font-weight: var(--fw-thick);
+}
+.project > .description {
+  padding-left: 8px;
+  font-size: 16px;
+  font-weight: var(--fw-normal);
+}
+
+.project > .tech {
+  padding-left: 8px;
+  font-size: 14px;
+  font-weight: var(--fw-normal);
+}

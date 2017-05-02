@@ -1,0 +1,16 @@
+.menu-bar {
+  margin: 0 0 4px 0;
+  padding: 32px;
+  width: 100%;
+
+  text-align: center;
+  color: var(--foreground);
+
+  background-color: var(--background);
+
+/*  transition: background-color 500ms, height 3500ms ease-out; */
+
+  box-shadow: 0 4px 4px 0 var(--gray);
+  --background: var(--light);
+  --foreground: var(--dark);
+}
