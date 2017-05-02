@@ -11,11 +11,32 @@
 
 .curriculum-vitae > .header > .img {
   position: relative;
-  top: 20px;
-  float: right;
-  padding-right: 20px;
+  top: 48px;
+  float: left;
+  padding-left: 16px;
   width: 100px;
   height: 100%;
+}
+
+.curriculum-vitae > .header > .txt {
+  display: block;
+  padding-left: 132px;
+}
+
+@media screen and (max-width: 600px) {
+  .curriculum-vitae > .header > .img {
+    display: block;
+    position: static;
+    width: 100px;
+    height: 100%;
+    margin: 0 calc(50% - 50px) 16px calc(50% - 50px);
+    padding: 0;
+  }
+  .curriculum-vitae > .header > .txt {
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
 }
 
 .curriculum-vitae > .header > .img > img {

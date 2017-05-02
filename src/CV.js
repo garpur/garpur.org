@@ -17,18 +17,22 @@ class Home extends Component {
               src="https://s3-eu-west-1.amazonaws.com/garpur.org/garpur-small.png"
             />
           </div>
-          <p>Garpur Dagsson (160667-4359)</p>
-          <p>Address: Dalsel 32, 109 Reykjavík, Ísland</p>
-          <p>
-            Email:
-            {' '}
-            <a className="link" href="mailto:garpur@gmail.com">
-              garpur@gmail.com
-            </a>
-          </p>
-          <p>
-            Phone: <a className="link" href="tel:+3546930109">+354 693-0109</a>
-          </p>
+          <div className="txt">
+            <p>Garpur Dagsson (160667-4359)</p>
+            <p>Address: Dalsel 32, 109 Reykjavík, Ísland</p>
+            <p>
+              Email:
+              {' '}
+              <a className="link" href="mailto:garpur@gmail.com">
+                garpur@gmail.com
+              </a>
+            </p>
+            <p>
+              Phone:
+              {' '}
+              <a className="link" href="tel:+3546930109">+354 693-0109</a>
+            </p>
+          </div>
         </div>
         <div className="career">
           <h2>Career</h2>

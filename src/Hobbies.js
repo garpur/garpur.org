@@ -1,12 +1,7 @@
 import React, { Component } from 'react'
-import cx from 'classnames'
 import './Hobbies.css'
 
 class Hobbies extends Component {
-  constructor() {
-    super()
-  }
-
   render() {
     return (
       <div className="hobbies-screen">
