@@ -9,13 +9,14 @@ class Hobbies extends Component {
 
   render() {
     return (
-      <div className={cx(['hero-area'])}>
-        <div className="title">
-          My name is <br /> Garpur Dagsson
-        </div>
-        <div className="content">
-          I am looking for a job.
-        </div>
+      <div className="hobbies-screen">
+        <h2>I have some hobbies</h2>
+        <ul className="hobbyList">
+          <li>Reading</li>
+          <li>Cooking</li>
+          <li>Playing computer games</li>
+          <li>Playing GO</li>
+        </ul>
       </div>
     )
   }

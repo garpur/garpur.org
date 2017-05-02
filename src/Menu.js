@@ -9,7 +9,6 @@ class Menu extends Component {
       <div className={cx(['menu-bar'])}>
         <Link className="button" to="/">Home</Link>
         <Link className="button" to="/hobbies">Hobbies</Link>
-        <Link className="button" to="/stuff">Stuff</Link>
         <Link className="button" to="/cv">CV</Link>
       </div>
     )
