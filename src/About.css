@@ -1,11 +1,10 @@
-.hobbies-screen {
+.about-screen {
 }
 
-.hobbies-screen {
+.about-screen {
   margin: 0;
   padding: 32px 16px;
   width: 100%;
-  height: calc(100vh - 92px);
 
   text-align: center;
   color: var(--foreground);
@@ -16,13 +15,16 @@
   --foreground: var(--dark);
 }
 
-.hobbies-screen > .hobbyList {
-  list-style: none;
-  padding: 0;
+.about-screen > .section {
+  display: block;
+  max-width: 800px;
+  text-align: left;
   font-size: 18px;
   font-weight: var(--fw-normal);
+  margin: 32px auto;
 }
 
-.hobbies-screen > .hobbyList li {
-  margin: 8px 0;
+.about-screen > .section > p {
+  margin: 0 0 0.5em 8px;
+  padding: 0;
 }

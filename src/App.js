@@ -5,7 +5,7 @@ import './App.css'
 import Home from './Home'
 import Menu from './Menu'
 import CV from './CV'
-import Hobbies from './Hobbies'
+import About from './About'
 
 class App extends Component {
   render() {
@@ -14,8 +14,8 @@ class App extends Component {
         <Menu />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
           <Route path="/cv" component={CV} />
-          <Route path="/hobbies" component={Hobbies} />
         </Switch>
       </div>
     )

@@ -1,7 +1,5 @@
 .home-screen {
-}
-
-.home-screen > h1 {
+  position: relative;
 }
 
 .home-screen {
@@ -25,4 +23,61 @@
   padding: 0;
   font-size: 18px;
   font-weight: var(--fw-normal);
+}
+
+.home-screen > .looking {
+  position: absolute;
+  left: 0;
+  top: calc(100% - 100px);
+  display: block;
+  width: 360px;
+  height: auto;
+  color: var(--light);
+  background-color: var(--gray);
+
+  font-size: 24px;
+  line-height: 48px;
+  font-weight: var(--fw-thick);
+
+}
+
+@media screen and (max-width: 1000px) {
+  .home-screen > .looking {
+    -webkit-animation: moveLeftToRight 5s linear infinite;
+    -moz-animation: moveLeftToRight 5s linear infinite;
+    -ms-animation: moveLeftToRight 5s linear infinite;
+    animation: moveLeftToRight 5s linear infinite;
+
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .home-screen > .looking {
+    -webkit-animation: moveLeftToRight 8s linear infinite;
+    -moz-animation: moveLeftToRight 8s linear infinite;
+    -ms-animation: moveLeftToRight 8s linear infinite;
+    animation: moveLeftToRight 8s linear infinite;
+
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+}
+
+@-moz-keyframes moveLeftToRight {
+  0%   { left: -360px; }
+  100% { left: 100%; }
+}
+@-ms-keyframes moveLeftToRight {
+  0%   { left: -360px; }
+  100% { left: 100%; }
+}
+@keyframes moveLeftToRight {
+  0%   { left: -360px; }
+  100% { left: 100%; }
+}
+@-webkit-keyframes moveLeftToRight {
+  0%   { left: -360px; }
+  100% { left: 100%; }
 }

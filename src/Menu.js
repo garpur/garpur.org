@@ -8,7 +8,7 @@ class Menu extends Component {
     return (
       <div className={cx(['menu-bar'])}>
         <Link className="button" to="/">Home</Link>
-        <Link className="button" to="/hobbies">Hobbies</Link>
+        <Link className="button" to="/about">About</Link>
         <Link className="button" to="/cv">CV</Link>
       </div>
     )
