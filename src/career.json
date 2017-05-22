@@ -1,4 +1,13 @@
 {
+  "2017-" : {
+    "company": "Wuxi NextCODE",
+    "projects": [
+      {
+        "title": "Software development",
+        "desctription": "Software development",
+        "tech": "java, sql, ..."
+      }
+    ]
   "2011-2017" : {
     "company": "Kolibri",
     "projects": [

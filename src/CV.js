@@ -32,6 +32,11 @@ class Home extends Component {
               {' '}
               <a className="link" href="tel:+3546930109">+354 693-0109</a>
             </p>
+            <p>
+              Website:
+              {' '}
+              <a className="link" href="http://garpur.org">http://garpur.org</a>
+            </p>
           </div>
         </div>
         <div className="career">

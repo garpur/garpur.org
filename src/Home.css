@@ -26,7 +26,8 @@
 }
 
 .home-screen > .looking {
-  position: absolute;
+  display: none;
+  /*position: absolute;
   left: 0;
   top: calc(100% - 100px);
   display: block;
@@ -37,11 +38,11 @@
 
   font-size: 24px;
   line-height: 48px;
-  font-weight: var(--fw-thick);
+  font-weight: var(--fw-thick);*/
 
 }
 
-@media screen and (max-width: 1000px) {
+/*@media screen and (max-width: 1000px) {
   .home-screen > .looking {
     -webkit-animation: moveLeftToRight 5s linear infinite;
     -moz-animation: moveLeftToRight 5s linear infinite;
@@ -63,7 +64,7 @@
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
   }
-}
+}*/
 
 @-moz-keyframes moveLeftToRight {
   0%   { left: -360px; }
