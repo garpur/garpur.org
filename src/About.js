@@ -35,7 +35,7 @@ class About extends Component {
             />
             <Hobby
               title="Playing computer games"
-              details="Less now than I used to becase of GO. Play mostly FPS and strategy games."
+              details="Less now than I used to because of GO. Play mostly FPS and strategy games."
             />
           </div>
         </div>
