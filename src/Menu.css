@@ -8,10 +8,8 @@
 
   background-color: var(--background);
 
-/*  transition: background-color 500ms, height 3500ms ease-out; */
-
   box-shadow: 0 4px 4px 0 var(--gray);
-  --background: var(--light);
+  --background: var(--gray-lighter);
   --foreground: var(--dark);
 }
 

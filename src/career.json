@@ -1,11 +1,11 @@
 {
-  "2017-" : {
+  "2017 - today" : {
     "company": "Wuxi NextCODE",
     "projects": [
       {
-        "title": "Software development",
-        "desctription": "Software development",
-        "tech": "java, sql, ..."
+        "title": "Research Applications",
+        "description": "Maintainng various end user applications, mostly the Sequence Miner tool.",
+        "tech": "java, docker, kubernetes"
       }
     ]
   },
@@ -13,9 +13,45 @@
     "company": "Kolibri",
     "projects": [
       {
-      "title": "Sjóvá",
-      "description": "Tool to assist salesmen of corporate insurance",
-      "tech": "Web based using KnockoutJS/razor templates/scss, interfacing with WebMethods and SAP, using SqlServer to store data."
+      "title": "Bluelagoon",
+      "description": "New booking flow",
+      "link": "https://booking.bluelagoon.com",
+      "tech":"Server in Go, running on Heroku, frontend in Reactjs using Firebase DB for data"
+      },
+      {
+      "title": "Icelandair",
+      "description": "Assistance with reconfiguring infrastructure and setting up Icelandair Labs",
+      "tech": "Golang for microservices, aws/docker/kubernetes/..."
+      },
+      {
+      "title": "Icelandair Labs website",
+      "description": "Website to entice people to come work for Icelandair",
+      "link": "https://labs.icelandair.com",
+      "tech": "scss, javascript, fetch data from wordpress on build"
+      },
+      {
+      "title": "Gengi.is",
+      "description": "Quick and easy currency conversion on the web for tourists",
+      "link": "https://gengi.is/",
+      "tech": "scss, javascript, vuejs, node api server for the data, cache currency info in localstore to minimize data-transfer,..."
+      },
+      {
+      "title": "Agile ísland (2105 version)",
+      "description": "Conference website",
+      "link": "https://2015.godigital.is/",
+      "tech": "scss, javascript, parsing .md files for content..."
+      },
+      {
+      "title": "Bluelagoon",
+      "description": "Inner beauty - An Ad campaign on the web",
+      "link": "http://innrifegurd.bluelagoon.is/",
+      "tech": "scss, javascript"
+      },
+      {
+      "title": "VÍS",
+      "description": "A new version of their web",
+      "link": "https://www.vis.is/",
+      "tech": "Umbraco CMS, razor templates, scss and javascript. Set up a deployment pipeline (dev/test/live) using Umbraco Courier and a build server"
       },
       {
       "title": "Vodafone",
@@ -23,39 +59,9 @@
       "tech": "AngularJS/Sass/Gulp/WebMethods"
       },
       {
-      "title": "Bluelagoon",
-      "description": "Inner beauty - Ad campaign on the web http://innrifegurd.bluelagoon.is/",
-      "tech": "scss, javascript"
-      },
-      {
-      "title": "VÍS",
-      "description": "New version of their web [www.vis.is](https://www.vis.is/)",
-      "tech": "Umbraco CMS, razor templates, scss and javascript. Set up a deployment pipeline (dev/test/live) using Umbraco Courier and a build server"
-      },
-      {
-      "title": "Icelandair",
-      "description": "Assistance with reconfiguring infrastructure and setting up Icelandair Labs",
-      "tech": "Go for microservices, aws/docker/kubernetes/..."
-      },
-      {
-      "title": "Icelandair Labs website",
-      "description": "labs.icelandair.com](https://labs.icelandair.com)",
-      "tech": "scss, javascript, fetch data from wordpress on build"
-      },
-      {
-      "title": "Bluelagoon",
-      "description": "New Bookingflow (still under development)",
-      "tech":"Server in Go, running on Heroku, frontend in Reactjs using Firebase DB for data"
-      },
-      {
-      "title": "Gengi.is (previous version)",
-      "description": "Currency conversion on the web",
-      "tech": "scss, javascript, vuejs, node api server for the data, cache currency info in localstore to minimize data-transfer,..."
-      },
-      {
-      "title": "Agile ísland (2105 version)",
-      "description": "Conference website, https://2015.godigital.is/",
-      "tech": "scss, javascript, parsing .md files for content..."
+      "title": "Sjóvá",
+      "description": "Tool to assist salesmen of corporate insurance",
+      "tech": "Web based using KnockoutJS/razor templates/scss, interfacing with WebMethods and SAP, using SqlServer to store data."
       }
     ]
   },
@@ -64,7 +70,7 @@
     "projects": [
       {
       "title": "Theriak Medication Manager",
-      "description": "An app for hospitals to manage medication (prescription/preparation/administration) for patients to minimize errors.",
+      "description": "An application for hospitals to manage medication (prescription/preparation/administration) for patients to minimize errors.",
       "tech": "Delphi, MS SQL Server (SQL and TSQL)"
       }
     ]
@@ -155,7 +161,7 @@
       {
         "title": "WM-Handball 1995",
         "description": "The result/score part of the official web for the 1995 Men's World Championship Handball Tournament",
-        "tech": "HTML, SQL Oracle, Expect -- UNIX"
+        "tech": "HTML, PL/SQL Oracle, Expect -- UNIX"
       }
     ]
   }

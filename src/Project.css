@@ -17,6 +17,13 @@
   font-weight: var(--fw-normal);
 }
 
+.project > .description > .link,
+.project > .description > .link:visited,
+.project > .description > .link:hover,
+.project > .description > .link:active  {
+  font-weight: var(--fw-thick);
+}
+
 .project > .tech {
   padding-left: 8px;
   font-size: 14px;

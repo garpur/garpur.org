@@ -43,7 +43,7 @@ class Home extends Component {
           <h2>Career</h2>
           {_.map(career, (val, key) => {
             return [
-              <h3>{key} {val.company}</h3>,
+              <h3>{key}: {val.company}</h3>,
               <Project projects={val.projects} />,
             ]
           })}

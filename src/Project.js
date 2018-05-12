@@ -9,7 +9,9 @@ const Project = ({ projects }) => {
       {_.map(projects, val => (
         <div className="project">
           <p className="title">{val.title}</p>
-          <p className="description">{val.description}</p>
+          <p className="description">
+            {val.description} <a className="link" href={val.link}>{val.link}</a>
+          </p>
           <p className="tech">TECH: {val.tech}</p>
         </div>
       ))}
