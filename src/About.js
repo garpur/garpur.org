@@ -10,10 +10,10 @@ class About extends Component {
           <h2>About me</h2>
           <p>I was born 16.06.1967 in Reykjavík, Iceland.</p>
           <p>
-            I lived in Reykjavík until January 1977 when I moved to Portugal with my family.
+            I lived in Reykjavík until January 1978 when I moved to Portugal with my family.
           </p>
           <p>
-            In August 1978 I moved back to Iceland and went on to live with my Grandmother.
+            In August 1979 I moved back to Iceland and went on to live with my Grandmother.
           </p>
           <p>I met my wife in July 1984 and we got married in June 1988.</p>
           <p>We have 3 children born 1990, 1993 and 2000.</p>
